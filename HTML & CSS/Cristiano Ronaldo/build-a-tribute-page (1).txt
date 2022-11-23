@@ -1,0 +1,205 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="styles.css" rel="stylesheet">  
+  </head>
+    <body>  
+      <main id="main">
+        <h1 id="title">Cristiano Ronaldo</h1>
+      <p>The best football player of all times</p>
+        <figure id="img-div">
+          <img id="image" src="https://s.hs-data.com/bilder/spieler/gross/13029.jpg" alt="Cristiano Ronaldo in Manchester United">
+          <figcaption id="img-caption">Cristiano Ronaldo the portuguese football player who became the GOAT.</figcaption>
+        </figure> 
+        <section id="tribute-info">
+          <h3 id="headline">Here's a time line of Cristiano Ronaldo football career:</h3>
+          <ul>
+          <li><strong>5 de febrero de 1985</strong> - Born in Funchal, Madeira, Portugal</li>
+          <li>
+            <strong>1992</strong> - As a child, Ronaldo played for Andorinha from 1992 to 1995.
+          </li>
+          <li>
+            <strong>1997</strong> - Leaves his family to travel to Lisboa and play for Sporting Club
+          </li>
+          <li>
+            <strong>2003</strong> - Ronaldo's move to Manchester United made him the first Portuguese player to sign for the club. His transfer fee made him, at the time, the most expensive teenager in English football history.
+          </li>
+          <li>
+            <strong>2008</strong> - His last season in Manchester he won the Balon d'or, the Champions League and the FIFA Puskás Award. Until this year he won 3x Premier league.
+          </li>
+          <li>
+            <strong>2009</strong> - Ronaldo joined Real Madrid for a world record transfer fee at the time, of £80 million (€94 million).
+          </li>
+          
+          <li>
+            <strong>2011</strong> - Ronaldo scored the match-winning goal against Barcelona in the 103rd minute of the 2011 Copa del Rey Final, winning his first trophy in Spain. In addition to the Pichichi Trophy, Ronaldo won the European Golden Shoe for a second time, becoming the first player to win the award in different leagues. Ronaldo found greater team success in the league, helping Madrid win their first league title in four years with a record 100 points.
+          </li>
+          <li>
+            <strong>2012</strong> - Ronaldo began the 2012–13 season by lifting the 2012 Supercopa de España, his third trophy in Spain.
+          </li>
+          <li>
+            <strong>2013</strong> - Ronaldo scored a record 17 UEFA Champions League goals during the 2013–14 season en route to La Décima the tenth European Cup for Real Madrid. For that incredible performance he was named the UEFA Best Player in Europe and received the 2013 FIFA Ballon d'Or, an amalgamation of the Ballon d'Or also the FIFA World Player of the Year award, for the first time in his career.
+          </li>
+          <li>
+            <strong>2014</strong> - After winning the 2014 FIFA Club World Cup, Ronaldo received the 2014 Ballon d'Or, joining Johan Cruyff, Michel Platini and Marco van Basten as a three-time recipient. He finished the season with 48 goals, winning a second consecutive Pichichi and the European Golden Shoe for a record fourth time.
+          </li>
+          <li>
+            <strong>2015</strong> - Ronaldo became the club's all-time top scorer with 324 goals. Ronaldo also became the all-time top scorer in the Champions League although he gave a poorly-received performance in the final against Atlético, though his penalty in the subsequent shoot-out secured Madrid's 11th victory. For his efforts during the season, he received the UEFA Best Player in Europe Award for a second time.
+          </li>
+          <li><strong>2016</strong> - He won the 2016 Ballon d'Or, his fourth, and the inaugural 2016 The Best FIFA Men's Player, a revival of the former FIFA World Player of the Year, largely owing to his success with Portugal in winning Euro 2016.</li>
+          <li>
+            <strong>2017</strong> - In the Champions League Final, Ronaldo scored two goals in a 4–1 victory over Juventus to take him to 12 goals for the season, making him the competition's top goalscorer for the fifth straight season (sixth overall), as well as the first player to score in three finals in the Champions League era. At the start of the 2017–18 season, Ronaldo win over Barcelona the 2017 Supercopa de España at Camp Nou. his performances throughout 2017 saw him awarded The Best FIFA Men's Player award for the second consecutive year and also the Ballon d'Or, receiving his fifth-time award.
+          </li>
+          <li>
+            <strong>2018</strong> - In the final on 26 May, Madrid defeated Liverpool 3–1, winning Ronaldo his fifth Champions League title, the first player to do so. on 10 July 2018, Ronaldo signed a four-year contract with Italian club Juventus after completing a €100 million transfer.
+          </li>
+          <li>
+            <strong>2019</strong> - Ronaldo won his first trophy with the club on 16 January 2019, the 2018 Supercoppa Italiana, after he scored the only goal from a header against AC Milan.
+          </li>
+          <li><strong>2021</strong> - Ronaldo leaves Juventus with two "Scudetti" (Serie A title), one Italian cup, two Italian Supercups , one league top goal scorer title and signs again for Manchester United.</li>
+        </ul>
+        <h3>
+          If you have time, you should read more about this incredible football player on his
+          <a id="tribute-link" href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo#Club" target="_blank">Wikipedia entry</a>.
+        </h3>
+        </section>   
+      </main>  
+    </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+    background: #b71c1c;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    margin: 0;
+    /* display: block; */
+}
+@media (max-width: 460px){
+#main {
+    margin: 0;
+}
+}
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #333;
+}
+/* main {
+    display: block;
+} */
+@media (max-width: 460px){
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+}
+/* h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+} */
+/* p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}*/
+/* figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}*/
+#img-div {
+    background: #b71c1c;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+}
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+@media (max-width: 460px){
+#img-caption {
+    font-size: 1.4rem;
+}
+}
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+/* figcaption {
+    display: block;
+}*/
+/* section {
+    display: block;
+}*/
+#headline {
+    margin: 50px 0;
+    text-align: center;
+}
+/* h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}*/
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+li {
+    margin: 16px 0;
+}
+/* ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    line-height: 1.6;
+}*/
+/* ul {
+    list-style-type: disc;
+}*/
+/* li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}*/
+a {
+    color: #b71c1c;;
+}
+
+** end of undefined **
+

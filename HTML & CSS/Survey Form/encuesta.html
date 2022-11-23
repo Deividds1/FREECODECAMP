@@ -1,0 +1,106 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <link href="styles.css" rel="styesheet">
+    </head>
+    <body>
+      <h1 id="title">Survey Form</h1>
+  
+      <p id="description">Please let us know your opinion and help us to improve the platform for you!</p>
+  
+      <form id="survey-form">
+  
+        <label id="name-label" for="name">Name
+          <input 
+          type="text" 
+          id="name" 
+          placeholder="Enter your name here" 
+          required/>
+        </label>
+  
+        <label id="email-label" for="email">Email
+          <input 
+          type="email" 
+          id="email" 
+          placeholder="Enter your email here"
+          required/>
+        </label>
+  
+        <label id="number-label" for="age">Age
+          <input 
+          type="number" 
+          min="14" 
+          max="120" 
+          id="number" 
+          placeholder="Age"/>
+        </label>
+  
+        <label for="dropdown"><h3>What video game genre do you play more frecuently?</h3>
+            <select id="dropdown" name="role">
+              <option value="">(Select one)</option>
+              <option value="1">FPS</option>
+              <option value="2">RPG</option>
+              <option value="3">Sports</option>
+            </select>
+        </label>
+        <h3>Are you a Professional gamer or Amateur gamer?</h3>
+        <label for="pro-gamer">
+          <input 
+          value="Pro gamer"
+          id="pro-gamer" 
+          type="radio" 
+          name="gamer-type" 
+          class="inline" /> 
+          Pro Gamer
+          </label>
+          <label for="amateur-gamer">
+            <input 
+            value="Amateur gamer"
+            id="amateur-gamer" 
+            type="radio" 
+            name="gamer-type" 
+            class="inline" /> 
+            Amateur gamer
+          </label>
+          <h3>What Parts of our platform can be improved?</h3>
+          <label for="library"
+          name="library">
+            <input id="library" type="checkbox"
+            value="library"
+            name="library" 
+            class="inline" /> 
+            Library
+          </label>
+          <label for="shop"
+          name="shop">
+            <input id="shop" type="checkbox"
+            value="shop"
+            name="shop" 
+            class="inline" /> 
+            Shop
+          </label>
+          <label for="social-area"
+          name="social-area">
+            <input id="social-area" type="checkbox"
+            value="social area"
+            name="social-area" 
+            class="inline" /> 
+            Social area
+          </label>
+  
+          <label for="opinion"><h3>Any comments or suggestions?:</h3>
+            <textarea id="opinion" 
+            name="bio" 
+            rows="3" 
+            cols="30"
+            placeholder="The platform sucks!">
+            </textarea>
+          </label>
+          <input type="submit" value="Submit" id="submit"/>
+      </form>
+    </body>
+  </html>
+  </body>
+</html>
